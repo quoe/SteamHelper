@@ -1,0 +1,11 @@
+http://api.steampowered.com/ISteamUser/ResolveVanityURL/v0001/?key=AFF0B3284D78A9BFA3B80AA73EBF7D0F&vanityurl=quoe&format=json%27
+
+{
+	"response": {
+		"steamid": "76561198030988834",
+		"success": 1
+	}
+}
+
+
+http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v2/?key=AFF0B3284D78A9BFA3B80AA73EBF7D0F&steamids=76561198030988834&format=xml

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.jpg,D:\Delphi_App\Steam Helper\0bbb630d63262dd66d2fdd0f7d37e8661a410075.jpg=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.pas,C:\Users\quoe\Documents\RAD Studio\Projects\Unit1.pas=E:\Delphi_App\Steam Helper\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.dfm,C:\Users\quoe\Documents\RAD Studio\Projects\Unit1.dfm=E:\Delphi_App\Steam Helper\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.dproj,C:\Users\quoe\Documents\RAD Studio\Projects\Project1.dproj=E:\Delphi_App\Steam Helper\SteamHelper.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

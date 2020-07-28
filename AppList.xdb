@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xdb="http://www.borland.com/schemas/delphi/10.0/XMLDataBinding">
+  <xs:element name="applist" type="applistType"/>
+  <xs:complexType name="applistType"><xs:annotation>
+      <xs:appinfo xdb:docElement="applist"/>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="apps" type="appsType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="appsType">
+    <xs:sequence>
+      <xs:element name="app" type="appType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="appType">
+    <xs:sequence>
+      <xs:element name="appid" type="xs:integer"/>
+      <xs:element name="name" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
